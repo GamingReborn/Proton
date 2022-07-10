@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    background-color: darkred;
+    font-family: 'Comfortaa', sans-serif;
+}
+#particles-js
+{
+  height: 100%;
+  background: #8b2626;
+}
