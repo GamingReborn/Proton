@@ -1,7 +1,9 @@
 body {
     text-align: center;
-    background-color: darkred;
     font-family: 'Comfortaa', sans-serif;
+  margin: 0;
+  padding:0;
+  height: 100vh;
 }
 #particles-js
 {
