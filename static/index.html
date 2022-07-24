@@ -1,20 +1,44 @@
+<!DOCTYPE html>
 <html>
-<body>
-<link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
-  rel="stylesheet"><link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-  <div class="bodycontainer"></div>
-  <title></title>
-  <div id="particles-js"></div>
-  <h3>proton.<style="border-radius: 5px; cursor:pointer; font-family:'Comfortaa"></style></h3>
-  <input placeholder="search the web with no filters"hg>
-      <script src="particles.js"></script>
-      <script src="app.js"></script>
-  <script src="uv/uv.bundler.js"></script>
-      <script src="uv/uv.config.js"></script>
-  
-    
-      
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="particles-js"></div>
+
+    <div id="text">
+      <h2 id="text" style="font-family:'Comfortaa">Proton</h2>
+      <input placeholder="do the funny" />
+    </div>
+    <script src="part.js"></script>
+    <script src="app.js"></script>
+    <script src="css/main.css"></script>
+    <script src="uv/uv.bundler.js"></script>
+    <script src="uv/uv.config.js"></script>
+
+    <style>
+      h2 {
+        color: rgb(255, 255, 255);
+
+        text-align: center;
+      }
+
+      #particles-js {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(#000000, #a01f1f);
+        background-size: cover;
+        z-index: 1;
+      }
+
+      #text {
+      }
+    </style>
+  </body>
+</html>
